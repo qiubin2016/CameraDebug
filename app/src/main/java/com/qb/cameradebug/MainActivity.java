@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         mTestButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO 测试按钮
+                //测试按钮
                 Log.i(TAG, "testButton onClick!");
                 test();
             }
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         mCamera1PreviewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO
+                //camera1Preview按钮
                 Log.i(TAG, "camera1PreviewButton onClick!");
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, Camera1PreviewActivity.class);
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         mRequestPermissionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO
+                //申请相机权限按钮
                 Log.i(TAG, "requesePermissionButton onClick!");
                 requestPerssion();
             }
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
         mCamera1SampleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO
+                //camera1Sample按钮
                 Log.i(TAG, "camera1SampleButton onClick!");
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this, Camera1SampleActivity.class);
